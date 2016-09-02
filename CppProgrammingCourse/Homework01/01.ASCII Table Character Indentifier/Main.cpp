@@ -41,6 +41,7 @@ int main()
 	cout << "Lower Case Characters:" << endl << lowerCaseCounter << endl;
 	cout << "Other Characters:" << endl << otherCharCounter << endl;
 
+	system("pause");
     return 0;
 }
 

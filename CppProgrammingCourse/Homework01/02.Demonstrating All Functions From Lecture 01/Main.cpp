@@ -30,5 +30,6 @@ int main()
 	string input;
 	getline(cin, input);
 
+	system("pause");
 	return 0;
 }
