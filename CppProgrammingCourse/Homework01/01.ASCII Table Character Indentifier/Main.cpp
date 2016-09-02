@@ -14,16 +14,17 @@ int main()
 	int upperCaseCounter = 0;
 	int lowerCaseCounter = 0;
 	int otherCharCounter = 0;
+	cout << "Enter some string: " << endl;
 	getline(cin, line);
 
 	// Act
 	for (int i = 0; i < line.size(); i++) {
-		if ((int)line[i] >= 65 && (int)line[i] <= 90) 
+		if (int(line[i]) >= 65 && int(line[i]) <= 90) 
 		{
 			// upperCase
 			upperCaseCounter++;
 		}
-		else if ((int)line[i] >= 97 && (int)line[i] <= 122) 
+		else if (int(line[i]) >= 97 && int(line[i]) <= 122) 
 		{
 			// lowerCase
 			lowerCaseCounter++;

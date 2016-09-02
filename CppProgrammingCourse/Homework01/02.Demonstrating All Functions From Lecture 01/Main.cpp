@@ -30,9 +30,5 @@ int main()
 	string input;
 	getline(cin, input);
 
-
 	return 0;
 }
-
-int 
-
